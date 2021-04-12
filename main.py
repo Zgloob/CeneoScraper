@@ -61,7 +61,7 @@ while respons:
             "publishDate":publishDate,
             "purchaseDate":purchaseDate,
             "useful":useful,
-            "useless":useless,
+            "useless":useless   
             
         }
         opinionsList.append(opinionDict)
@@ -72,8 +72,8 @@ while respons:
     else:
         break
 
-with open("./opinions/32622086.json", "w", encoding="UTF-8") as f:
-    json.dump(opinionsList, f, indent=4, ensure_ascii=False)
+    with open("./opinions/32622086.json", "w", encoding="UTF-8") as f:
+        json.dump(opinionsList, f, indent=4, ensure_ascii=False)
 
 
 #print(json.dumps(opinionsList, indent=4, ensure_ascii=False))
