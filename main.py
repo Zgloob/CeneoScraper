@@ -52,8 +52,6 @@ while respons:
             opinion, "span.user-post__published > time:nth-child(1)", "datetime")    
         purchaseDate = extractComponent(
             opinion,"span.user-post__published > time:nth-child(2)", "datetime")
-        except IndexError:
-            purchaseDate = None
         ########################################
         useful = extractComponent(opinion,"span[id^='votes-yes']")
         useless = extractComponent(opinion,"span[id^='votes-no']")
