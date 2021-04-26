@@ -1,4 +1,4 @@
-# CeneoScraperS13
+# Ceneo Scraper
 ## Etap 1 - pobranie opinii o produkcie 
 - pobranie kodu pojedynczej strony z opiniami o produkcie 
 - wydobycie z kodu strony fragmentu odpowiadajacego pojedynczej opinii
